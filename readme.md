@@ -1,33 +1,30 @@
 # Logistics KPI Analysis & Performance Optimizations
 
-## Tableau Dashboard
+## Dashboard
 
-[View the Tableau dashboard](https://public.tableau.com/app/profile/naimur.rahman5472/viz/order_analysis_dashboard/order_analysis?publish=yes)
+[View the dashboard](https://public.tableau.com/app/profile/naimur.rahman5472/viz/order_analysis_dashboard/order_analysis?publish=yes)
+![kpi-agent](kpi-agent.png)
 
 ## Analysis Topic
 
 | Topic |
 | --- |
-| Daily agent productivity and average deliveries per agent per day
+| Daily agent productivity and average deliveries per agent per day |
 | Hub utilization in Week 1 and Week 2 | 
 | Hold reasons and the main operational causes |
 | Final outcomes of orders held at least once |
-| Agents with high return ratios and sufficient tenure |
-| Cost per delivered order by hub and week | 
 | Agents required to meet forecast demand and staffing gaps |
-| Hub-by-hub assessment of the request to hire eight agents |
-| ROI Calculation | 
 
 ## Hub-by-Hub Performance
 
-| Hub | Agents | Util W2 | Agent Holds | Attempt/Order | Work Load |
-|---|---:|---:|---:|---:|---|
-| Greenfield | 10 | 88.6% | 19.0% | 1.073 | Above Target |
-| Hillcrest | 9 | 95.9% | 22.0% | 1.078 | Above Target |
-| Riverside | 12 | 90.8% | 64.4% | 1.351 | Above Target |
-| Westwood | 9 | 80.4% | 20.5% | 1.067 | Balanced |
-| Brookside | 11 | 71.5% | 26.3% | 1.085 | Below Target |
-| Lakeview | 11 | 56.2% | 21.1% | 1.073 | Below Target |
+| Hub | Agents | Util W2 |
+|---|---:|---:|
+| Greenfield | 10 | 87.03.6% |
+| Hillcrest | 9 | 82.54% |
+| Westwood | 9| 83.06% |
+| Riverside | 12 | 72.43% | 
+| Brookside | 11 | 63.95% |
+| Lakeview | 11 | 57.62% |
 
 ## Problem Identification
 
@@ -35,8 +32,8 @@
 
 Lakeview has 3 surplus agents at **56% utilisation**, while Hillcrest operates at **96% utilisation**.
 
-- **56%** — Lakeview
-- **96%** — Hillcrest
+- **57%** — Lakeview
+- **87%** — Hillcrest
 
 The underlying problem is **uneven agent distribution across hubs**, resulting in underutilised capacity in some hubs and excessive workload in others.
 
@@ -65,11 +62,11 @@ Address late dispatch and agent-side holds to reduce unnecessary delivery attemp
 
 ## Forecasted Outcome
 
-| Hub | Current Agents | After Distribution | Current Utilization | After Utilization |
-|---|---:|---:|---:|---:|
-| Greenfield | 10 | 12 | 88.6% | 83% |
-| Hillcrest | 9 | 11 | 95.9% | 83% |
-| Riverside | 12 | 13 | 90.8% | 84% |
-| Westwood | 9 | 9 | 80.4% | 82% |
-| Brookside | 11 | 11 | 71.5% | 72% |
-| Lakeview | 11 | 8 | 56.2% | 77% |
+| Hub | Current Agents | After Distribution |
+|---|---:|---:|
+| Greenfield | 10 | 12 |
+| Hillcrest | 9 | 11 |
+| Riverside | 12 | 13 | 
+| Westwood | 9 | 9 | 
+| Brookside | 11 | 11 | 
+| Lakeview | 11 | 8 |
